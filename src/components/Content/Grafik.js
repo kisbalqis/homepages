@@ -6,6 +6,7 @@ import abu from "../../assets/gambar/abu.png";
 import biru from "../../assets/gambar/biru.png";
 import kuning from "../../assets/gambar/kuning.png";
 import merah from "../../assets/gambar/merah.png";
+import hijau from "../../assets/gambar/hijau.png";
 export default function Grafik() {
   const a = [
     {
@@ -82,31 +83,37 @@ export default function Grafik() {
       <div className="p-5 w-1/2 border">
         <div className="flex flex-col">
           <div className="text-lg font-semibold">Status</div>
-          <div className="flex pl-5 ">
+          <div className="flex pl-3">
             <img src={gmbr} />
-            <div className="flex-col pt-28 pl-5">
-              <div className="flex py-1">
-                <img src={abu} className="w-5 h-5" />
-                <div className="px-1">
-                  <div className="text-sm">Low</div>
-                </div>
-              </div>
+            <div className="flex-col pt-28 pl-2">
               <div className="flex py-1">
                 <img src={biru} className="w-5 h-5" />
                 <div className="px-1">
-                  <div className="text-sm">Medium</div>
+                  <div className="text-sm">Initiated</div>
+                </div>
+              </div>
+              <div className="flex py-1">
+                <img src={abu} className="w-5 h-5" />
+                <div className="px-1">
+                  <div className="text-sm">In Progress</div>
+                </div>
+              </div>
+              <div className="flex py-1">
+                <img src={hijau} className="w-5 h-5" />
+                <div className="px-1">
+                  <div className="text-sm">Completed</div>
                 </div>
               </div>
               <div className="flex py-1">
                 <img src={kuning} className="w-5 h-5" />
                 <div className="px-1">
-                  <div className="text-sm">High</div>
+                  <div className="text-sm">Rework</div>
                 </div>
               </div>
               <div className="flex py-1">
                 <img src={merah} className="w-5 h-5" />
                 <div className="px-1">
-                  <div className="text-sm">Emergency</div>
+                  <div className="text-sm">Postponed</div>
                 </div>
               </div>
             </div>
@@ -118,7 +125,7 @@ export default function Grafik() {
           <div className="text-lg font-semibold">Priority</div>
           <div className="flex">
             <img src={gmbr} />
-            <div className="flex-col pt-28 pl-5">
+            <div className="flex-col pt-28 pl-3">
               <div className="flex py-1">
                 <img src={abu} className="w-5 h-5" />
                 <div className="px-1">

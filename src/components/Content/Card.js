@@ -77,47 +77,6 @@ export default function card() {
         },
       ],
     },
-    // {
-    //   type: "Work Order Summary",
-    //   categories: [
-    //     {
-    //       tittle: "Work Order Summary",
-    //       name: "Total Work Order",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "Completed",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "Initiated",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "In Progress",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "On Hold",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "Rework",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //     {
-    //       name: "Postponed",
-    //       total: "0",
-    //       icon: <IoIosArrowForward size={20} />,
-    //     },
-    //   ],
-    // },
   ];
   return (
     <div>
